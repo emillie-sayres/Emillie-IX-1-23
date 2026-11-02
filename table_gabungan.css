@@ -1,0 +1,19 @@
+table, th, td{
+    border: solid black;
+}
+th{
+    height: 40px;
+    padding: 2px;
+    background-color: beige;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+tr{
+    background-color: aquamarine;
+}
+tr:nth-child(event){
+    background-color: cadetblue;
+}
+
